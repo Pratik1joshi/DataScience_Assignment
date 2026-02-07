@@ -1,0 +1,60 @@
+{
+  "target": "high_disruption_risk",
+  "threshold": 107.0,
+  "num_features": [
+    "departure_hour",
+    "is_peak_hour",
+    "day_of_week_num",
+    "stop_sequence",
+    "latitude",
+    "longitude",
+    "run_time_min",
+    "is_weekend",
+    "hour_sin",
+    "hour_cos",
+    "route_complexity"
+  ],
+  "cat_features": [
+    "line_name",
+    "direction",
+    "time_of_day",
+    "lat_zone"
+  ],
+  "feature_vector_size": 35,
+  "train_count": 28119,
+  "test_count": 6803,
+  "cat_labels": {
+    "line_name": [
+      "22",
+      "73",
+      "33",
+      "83",
+      "x80",
+      "44",
+      "99",
+      "88",
+      "99OT",
+      "x32",
+      "x2",
+      "x1"
+    ],
+    "direction": [
+      "outbound",
+      "inbound",
+      "clockwise"
+    ],
+    "time_of_day": [
+      "midday",
+      "morning_rush",
+      "evening_rush",
+      "late_night",
+      "night"
+    ],
+    "lat_zone": [
+      "mid_north",
+      "south",
+      "mid_south",
+      "north"
+    ]
+  }
+}
