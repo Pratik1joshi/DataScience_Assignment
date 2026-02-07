@@ -12,8 +12,8 @@ Predictive analytics platform for public transport disruption risk using BODS Tr
 - 34,922 journey records processed
 
 **Models:**
-- Logistic Regression: 95.84% accuracy
-- Random Forest: 100% accuracy, AUC-ROC 1.0
+- Logistic Regression: 85.40% accuracy (AUC-ROC 0.8906)
+- Random Forest: 85.84% accuracy (AUC-ROC 0.8795)
 
 ## 🚀 Quick Start
 
@@ -78,8 +78,8 @@ big-data-transport-analytics/
 
 | Model | Accuracy | AUC-ROC | F1 Score |
 |-------|----------|---------|----------|
-| Logistic Regression | 95.84% | 0.9964 | 0.9587 |
-| Random Forest | 100.0% | 1.0000 | 1.0000 |
+| Logistic Regression | 85.40% | 0.8906 | 0.8301 |
+| Random Forest | 85.84% | 0.8795 | 0.8380 |
 
 ## 👨‍💻 Author
 

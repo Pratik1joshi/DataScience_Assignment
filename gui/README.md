@@ -86,9 +86,9 @@ Returns dropdown options and model info for form initialization.
   "time_periods": ["night", "morning_rush", "midday", ...],
   "lat_zones": ["south", "mid_south", "mid_north", "north"],
   "model_info": {
-    "accuracy": 0.9584,
-    "auc_roc": 0.9964,
-    "f1": 0.9587,
+    "accuracy": 0.8584,
+    "auc_roc": 0.8795,
+    "f1": 0.8380,
     "num_trees": 100
   }
 }
@@ -160,8 +160,8 @@ Returns top 15 feature importances for visualization.
 - **Max Depth**: 10
 - **Features**: 15 engineered features from timetable data
 - **Training Data**: 27,937 journey records
-- **Test Accuracy**: 95.84%
-- **AUC-ROC**: 0.9964
+- **Test Accuracy**: 85.84%
+- **AUC-ROC**: 0.8795
 
 ## 🔒 Security Notes
 
